@@ -1,12 +1,12 @@
-import type { FC } from 'react';
-import { navWrapper } from './nav.styled';
+// import type { FC } from 'react';
+// import { navWrapper } from './nav.styled';
 
-interface navProps {}
+// interface navProps {}
 
-const nav: FC<navProps> = () => (
- <navWrapper>
-    nav Component
- </navWrapper>
-);
+// const nav: FC<navProps> = () => (
+//  <navWrapper>
+//     nav Component
+//  </navWrapper>
+// );
 
-export default nav;
+//export default nav;
