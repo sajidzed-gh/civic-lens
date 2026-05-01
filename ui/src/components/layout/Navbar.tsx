@@ -6,7 +6,7 @@ interface NavbarProps {
 }
 
 export const Navbar: React.FC<NavbarProps> = ({ location }) => (
-  <nav className="h-16 bg-white border-b border-slate-200 flex items-center justify-between px-8 sticky top-0 z-50">
+  <nav id="nav-header" className="h-16 bg-white border-b border-slate-200 flex items-center justify-between px-8 sticky top-0 z-50">
     <div className="flex items-center gap-2">
       <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
         <ShieldAlert className="w-5 h-5 text-white" />

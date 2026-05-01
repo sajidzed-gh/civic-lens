@@ -6,6 +6,10 @@ import { HeaderSection } from './components/reporting/HeaderSection';
 import { ImageUploader } from './components/reporting/ImageUploader';
 import { LocationBar } from './components/reporting/LocationBar';
 import { AnalysisReport } from './components/reporting/AnalysisReport';
+//import { analyzeHazard, HazardReport } from './services/someService';
+import HazardService  from './services/hazard';
+import type HazardReport from '@shared/entity/hazard-report';
+
 
 export default function App() {
   const [image, setImage] = useState<string | null>(null);
@@ -14,6 +18,7 @@ export default function App() {
   const [report, setReport] = useState<HazardReport | null>(null);
   const [error, setError] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const hazardService = new HazardService();
 
   useEffect(() => {
     if ("geolocation" in navigator) {
@@ -42,7 +47,9 @@ export default function App() {
     setError(null);
     try {
       const base64Data = image.split(',')[1];
-      const result = await analyzeHazard(base64Data, location || undefined);
+      //const result = await analyzeHazard(base64Data, location || undefined);
+      
+      const result = await hazardService.AnalyzeHazardAPI(base64Data, location || undefined);
       setReport(result);
     } catch (err) {
       console.error("Analysis error:", err);
@@ -60,7 +67,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans text-slate-900">
+    <div className="min-h-screen bg-slate-50 font-sans text-slate-900 selection:bg-indigo-100 selection:text-indigo-900">
       <Navbar location={location} />
 
       <main className="max-w-7xl mx-auto p-8">
