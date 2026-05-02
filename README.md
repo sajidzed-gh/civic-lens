@@ -41,11 +41,11 @@ Public safety is a collective effort. CivicLens simplifies the process of identi
 
 ### 1. Prerequisites
 *   Node.js (v18 or higher)
-*   A Google AI Studio API Key (for Gemini 3 Flash)
+*   A Gemini API Key (for Gemini 3 Flash)
 
 ### 2. Clone and Install
 ```bash
-git clone [https://github.com/sajidzed-gh/Civic-Lens.git](https://github.com/sajidzed-gh/Civic-Lens.git)
+git clone https://github.com/sajidzed-gh/Civic-Lens.git
 cd Civic-Lens
 
 # Install Backend Dependencies
@@ -60,11 +60,11 @@ npm install
 
 ## ⚠️ Disclaimer
 
-**CivicGuard is an informational and reporting tool only.**
+**Civic-Lens is an informational and reporting tool only.**
 
 *   **Not a Professional Service**: This application does not replace emergency services or professional biohazard remediation teams.
 *   **AI Limitations**: Hazard identification is performed by AI and may occasionally be inaccurate. Users should always exercise extreme caution regardless of the app's analysis.
 *   **No Physical Contact**: Users are strictly advised **never** to touch, move, or attempt to dispose of needles or drug paraphernalia themselves.
-*   **Personal Risk**: The creators of CivicGuard are not liable for any injuries or legal issues arising from the use of this application or the handling of public hazards.
+*   **Personal Risk**: The creator of Civic-Lens is not liable for any injuries or legal issues arising from the use of this application or the handling of public hazards.
 
 ---
