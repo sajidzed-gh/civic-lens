@@ -10,30 +10,30 @@ Public safety is a collective effort. CivicLens simplifies the process of identi
 
 *   **Analyze**: Upload images for instant AI verification of needles, syringes, and other biohazards.
 *   **Safety First**: Receive immediate, expert-backed protocols before taking any action.
-*   **Report**: Access localized, step-by-step instructions for city officials based on your current location[cite: 1].
+*   **Report**: Access localized, step-by-step instructions for city officials based on your current location.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React 18 & Vite**: For a high-performance, modern web experience[cite: 1].
-- **Tailwind CSS**: Designed with a "Clean Utility / Minimal" aesthetic to foster transparency and trust[cite: 1].
-- **Framer Motion**: Smooth transitions and interactive state changes via `motion/react`[cite: 1].
-- **Lucide React**: Clear, accessible UI markers for better navigation[cite: 1].
+- **React 18 & Vite**: For a high-performance, modern web experience.
+- **Tailwind CSS**: Designed with a "Clean Utility / Minimal" aesthetic to foster transparency and trust.
+- **Framer Motion**: Smooth transitions and interactive state changes via `motion/react`.
+- **Lucide React**: Clear, accessible UI markers for better navigation.
 
 ### Backend & AI
 - **NestJS**: A progressive Node.js framework for building efficient, reliable, and scalable server-side applications.
-- **Gemini 3 Flash**: Powered for fast, multimodal analysis and structured JSON reporting[cite: 1].
+- **Gemini 3 Flash**: Powered for fast, multimodal analysis and structured JSON reporting.
 
 ---
 
 ## ✨ Key Features
-*   **AI Hazard Identification**: Uses Gemini to analyze images for syringes and biohazards, assigning an urgency level from Low to Critical[cite: 1].
-*   **Geospatial Intelligence**: Automatically detects your current location to provide localized context in the reporting prompt[cite: 1].
-*   **Expert Safety Protocols**: Prominently displays critical "Safety First" guidelines (e.g., "Do not touch", "Keep children away")[cite: 1].
-*   **Actionable Reporting**: Gives step-by-step instructions on who to call and how to report the hazard to city officials[cite: 1].
-*   **Legal & Regulatory Context**: Includes AI-generated insights into local laws regarding biohazard disposal[cite: 1].
+*   **AI Hazard Identification**: Uses Gemini to analyze images for syringes and biohazards, assigning an urgency level from Low to Critical.
+*   **Geospatial Intelligence**: Automatically detects your current location to provide localized context in the reporting prompt.
+*   **Expert Safety Protocols**: Prominently displays critical "Safety First" guidelines (e.g., "Do not touch", "Keep children away").
+*   **Actionable Reporting**: Gives step-by-step instructions on who to call and how to report the hazard to city officials.
+*   **Legal & Regulatory Context**: Includes AI-generated insights into local laws regarding biohazard disposal.
 
 ---
 
@@ -45,24 +45,26 @@ Public safety is a collective effort. CivicLens simplifies the process of identi
 
 ### 2. Clone and Install
 ```bash
-git clone [https://github.com/your-username/CivicLens.git](https://github.com/your-username/CivicLens.git)
-cd CivicLens
+git clone '[https://github.com/sajidzed-gh/Civic-Lens.git](https://github.com/sajidzed-gh/Civic-Lens.git)'
+cd Civic-Lens
 
 # Install Backend Dependencies
-cd backend
+cd api
 npm install
 
 # Install Frontend Dependencies
-cd ../frontend
+cd ../ui
 npm install
 
 ---
 
 ## ⚠️ Disclaimer
 
-**CivicLens is an informational and reporting tool only.**
+**CivicGuard is an informational and reporting tool only.**
 
-*   **Not a Professional Service**: This application does not replace emergency services or professional biohazard remediation teams [cite: 1].
-*   **AI Limitations**: Hazard identification is performed by AI and may occasionally be inaccurate. Users should always exercise extreme caution regardless of the app''s analysis [cite: 1].
-*   **No Physical Contact**: Users are strictly advised **never** to touch, move, or attempt to dispose of needles or drug paraphernalia themselves [cite: 1].
-*   **Personal Risk**: The creators of CivicLens are not liable for any injuries or legal issues arising from the use of this application or the handling of public hazards [cite: 1].
+*   **Not a Professional Service**: This application does not replace emergency services or professional biohazard remediation teams.
+*   **AI Limitations**: Hazard identification is performed by AI and may occasionally be inaccurate. Users should always exercise extreme caution regardless of the app''s analysis.
+*   **No Physical Contact**: Users are strictly advised **never** to touch, move, or attempt to dispose of needles or drug paraphernalia themselves.
+*   **Personal Risk**: The creators of CivicGuard are not liable for any injuries or legal issues arising from the use of this application or the handling of public hazards.
+
+---
