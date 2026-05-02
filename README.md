@@ -45,7 +45,7 @@ Public safety is a collective effort. CivicLens simplifies the process of identi
 
 ### 2. Clone and Install
 ```bash
-git clone '[https://github.com/sajidzed-gh/Civic-Lens.git](https://github.com/sajidzed-gh/Civic-Lens.git)'
+git clone [https://github.com/sajidzed-gh/Civic-Lens.git](https://github.com/sajidzed-gh/Civic-Lens.git)
 cd Civic-Lens
 
 # Install Backend Dependencies
@@ -55,7 +55,7 @@ npm install
 # Install Frontend Dependencies
 cd ../ui
 npm install
-
+```
 ---
 
 ## ⚠️ Disclaimer
@@ -63,7 +63,7 @@ npm install
 **CivicGuard is an informational and reporting tool only.**
 
 *   **Not a Professional Service**: This application does not replace emergency services or professional biohazard remediation teams.
-*   **AI Limitations**: Hazard identification is performed by AI and may occasionally be inaccurate. Users should always exercise extreme caution regardless of the app''s analysis.
+*   **AI Limitations**: Hazard identification is performed by AI and may occasionally be inaccurate. Users should always exercise extreme caution regardless of the app's analysis.
 *   **No Physical Contact**: Users are strictly advised **never** to touch, move, or attempt to dispose of needles or drug paraphernalia themselves.
 *   **Personal Risk**: The creators of CivicGuard are not liable for any injuries or legal issues arising from the use of this application or the handling of public hazards.
 
